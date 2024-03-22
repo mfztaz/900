@@ -1,0 +1,38 @@
+<html manifest="cache.manifest">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('background.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+</style>
+<head>
+<title>SMART SHOP - سمارت شوب</title>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+</head>
+<body <div class="bgimg">
+</div><h1 id=msgs style='font-size:25px;text-align:center;'>9.00</h1>
+<hr><br>
+<h1 style='font-size:18px;text-align:center;'></h1>
+<div style="text-align:center">
+<button style='font-size:18px''height:200px;width:200px'
+onclick="document.location='hen.html'"><b>اهمس هانا</b></button>
+
+</div>
+</script>
+</body>
+</html>
